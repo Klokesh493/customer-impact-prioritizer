@@ -22,6 +22,10 @@ python3 -m unittest discover . -v
 
 Run `make verify` with Make and Python 3 installed. The target runs the documented sample through the project CLI. It also runs the existing Python unit tests.
 
+## Business problem
+
+An incident commander needs a consistent way to order incidents by user impact, payment impact, region spread, and service tier.
+
 ## Project walkthrough
 
 ```mermaid

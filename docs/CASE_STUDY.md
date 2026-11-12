@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Ranks incidents by affected users, payment impact, region spread, and service tier.
+An incident commander needs a consistent way to order incidents by user impact, payment impact, region spread, and service tier.
 
 ## Reproduce the workflow
 
