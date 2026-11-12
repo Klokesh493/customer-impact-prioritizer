@@ -24,4 +24,13 @@ Run `make verify` with Make and Python 3 installed. The target runs the document
 
 ## Project walkthrough
 
+```mermaid
+flowchart LR
+    A["Incident impact CSV"]
+    B["Weight user count, payments, region spread, and tier"]
+    C["Sort by impact score"]
+    D["Ordered incidents with scores"]
+    A --> B --> C --> D
+```
+
 [Architecture and data flow](docs/ARCHITECTURE.md) · [Business problem, demo, and verification](docs/CASE_STUDY.md)

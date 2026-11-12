@@ -4,11 +4,11 @@ Ranks incidents by affected users, payment impact, region spread, and service ti
 
 ```mermaid
 flowchart LR
-    N0["sample_incidents.csv"]
-    N1["impact_prioritizer.py"]
-    N2["score / prioritize"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Incident impact CSV"]
+    B["Weight user count, payments, region spread, and tier"]
+    C["Sort by impact score"]
+    D["Ordered incidents with scores"]
+    A --> B --> C --> D
 ```
 
 ## Operational boundaries
