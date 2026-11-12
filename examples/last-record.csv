@@ -1,0 +1,2 @@
+service,summary,tier,affected_users,payment_impact,regions
+photos,upload retries,tier2,1200,no,1
