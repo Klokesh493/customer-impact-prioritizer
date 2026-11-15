@@ -2,6 +2,8 @@
 
 An incident commander needs a consistent way to order incidents by user impact, payment impact, region spread, and service tier.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built an incident ranking utility that scores affected-user counts, payment impact, regional spread, and service tier. It sorts incident rows by descending score so responders can explain the priority order.
